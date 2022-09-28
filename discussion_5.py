@@ -112,11 +112,6 @@ class TestAllMethods(unittest.TestCase):
 		mx_price = Store.get_max_price()
 		self.assertEqual(mx_price, self.item1)
 
-		# Meijer.add_item(self.item3)
-		# mx_price_new = Meijer.get_max_price()
-		# self.assertEqual(mx_price_new,self.item3)
-		
-
 def main():
 	unittest.main()
 
